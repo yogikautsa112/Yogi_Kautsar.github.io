@@ -339,7 +339,7 @@ form .btn2 {
     nav ul {
         position: fixed;
         top: 0;
-        left: 0;
+        left: 1;
         right: 1;
         height: 10vh;
         width: 100%;
