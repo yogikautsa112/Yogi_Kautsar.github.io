@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogi Kautsar A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <script src="index.js"></script>
+<!-- Header NAV -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"> 
+                    <h1><span>G</span>oy.</h1>
+                </div>
+                    <ul id="sideNav" >
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portofolio">Portofolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Yogi</span> <br>Kautsar Alnandeta</h1>
+
+                <div class="header-img">
+                    <img src="_eacca089-f9b0-4aa4-b4fc-2f9a7e5f8f73.jpeg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- end of Header NAV -->
+
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="_7e3eb1a6-452b-4388-aa25-a00971835e20.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Yogi Kautsar Alnandeta, 15 y.o , im a student of Wikrama Vacational highSchool, my hobby is playing VolleyBall, im really interest to study Java Script and other programing language </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skilss')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skilss">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web interface</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Still Study</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2014-2019</span><br>SDIT Raudhlatul Jannah</li>
+                        <li><span>2020-2023</span><br>SMP Negeri 1 Ciawi</li>
+                        <li><span>2023-now</span><br>SMK Wikrama</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of About -->
+
+<!-- portofolio -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Under Construction</h3>
+                    <p>Under Construction</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Under Construction</h3>
+                    <p>Under Construction</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Under Construction</h3>
+                    <p>Under Construction</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of portofolio -->
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yogikautsa@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+6281319614673</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/alndta_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/+6281319614673"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/yogi-kautsa-81118b290/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xvojndel" method="post" id="form-id">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Goy. </p>
+        </div>
+    </div>
+</div>
+<!-- end of contact -->
+</body>
+</html>
