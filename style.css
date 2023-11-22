@@ -320,6 +320,22 @@ form .btn2 {
     margin-top: 20px;
 }
 
+@media screen and (max-width:375px) {
+    nav ul li a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .header-text p {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    nav ul {
+        left: 0;
+    }
+}
+
 @media screen and (max-width: 600px){
     .header-img img{
         margin-top: 20%;
@@ -340,7 +356,7 @@ form .btn2 {
         position: fixed;
         top: 0;
         left: 1;
-        right: 1;
+        right: auto;
         height: 10vh;
         width: 100%;
         display: flex;
