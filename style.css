@@ -91,6 +91,19 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+.humburger {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.humburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
 
 /* About */
 
